@@ -18,7 +18,7 @@
 
 
 a {
-  color: #ff5242; }
+  color: #2275b8; }
 
 a:hover {
   color: #000; }
@@ -511,7 +511,7 @@ html.no-touchevents .nav-video {
   filter: none; }
 
 .colored-title {
-  color: #ff5242; }
+  color: #2275b8; }
 
 .big-text {
   font-size: 24px;
@@ -644,7 +644,7 @@ html.no-touchevents .nav-video {
   to {
     transform: translateY(5px); } }
 
-/* client */
+
 .client {
   border: 1px solid #fff;
   text-align: center;
@@ -692,7 +692,7 @@ html.no-touchevents .nav-video {
   border-radius: 50%;
   -ms-transform: scale(0);
   transform: scale(0);
-  background: #ff5242;
+  background: #2275b8;
   transition: transform 0.4s cubic-bezier(0.645, 0.045, 0.355, 1); }
 
 .client {
@@ -727,7 +727,7 @@ html.no-touchevents .nav-video {
   -moz-border-radius: 20px;
   -webkit-border-radius: 20px;
   border-radius: 20px;
-  background-color: #ff5242;
+  background-color: #2275b8;
   opacity: 0;
   transform: translateY(0);
   transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1); }
@@ -847,7 +847,7 @@ html.no-touchevents .nav-video {
   height: 1px;
   margin-right: 10px;
   display: inline-block;
-  background: #ff5242; }
+  background: #2275b8; }
 
 .icon-text:hover .icon-2 {
   -webkit-animation: BackgroundAnimated-l-r 2s linear infinite;
@@ -886,7 +886,7 @@ html.no-touchevents .nav-video {
   ransition: background 0.1s ease-in; }
 
 .big-letter {
-  color: #ff5242;
+  color: #2275b8;
   opacity: 1;
   font-size: 280px;
   font-weight: 700;
@@ -921,7 +921,7 @@ ul.socials li {
   display: inline-block; }
 
 ul.socials li a {
-  color: #ff5242;
+  color: #2275b8;
   display: inline-block;
   padding: 5px; }
 
@@ -943,11 +943,11 @@ ul.socials li a:hover {
   padding: 5px 0; }
 
 .contact-email a:hover {
-  color: #ff5242; }
+  color: #2275b8; }
 
 .contact-details i {
   font-size: 36px;
-  color: #ff5242; }
+  color: #2275b8; }
 
 .contact-details ul.socials {
   margin: 0; }
@@ -963,7 +963,7 @@ ul.socials li a:hover {
   color: #000; }
 
 .contact-details ul.socials a:hover i {
-  color: #ff5242; }
+  color: #2275b8; }
 
 .contact-details p {
   margin-bottom: 5px; }
@@ -972,7 +972,7 @@ ul.socials li a:hover {
   color: #000; }
 
 .contact-details p a:hover {
-  color: #ff5242; }
+  color: #2275b8; }
 
 .contact-details a.google-map-button {
   color: #000;
@@ -1175,7 +1175,7 @@ ul.socials li a:hover {
   -webkit-mask-size: 75% 75%; }
 
 .item:hover {
-  background: #ff5242;
+  background: #2275b8;
   background-color: #ffffff;
   background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ff5242' fill-opacity='1' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E"); }
 
@@ -1250,23 +1250,23 @@ ul.socials li a:hover {
   transition: all 0.5s ease; }
 
 .post-image-1 {
-  background: url(../../images/%40stock/work-9.jpg) center center no-repeat;
+  background: url(../../images/%40stock/executive.jpeg) center center no-repeat;
   background-size: cover; }
 
 .post-image-2 {
-  background: url(../../images/%40stock/work-10.jpg) center center no-repeat;
+  background: url(../../images/%40stock/contigent.jpeg) center center no-repeat;
   background-size: cover; }
 
 .post-image-3 {
-  background: url(../../images/%40stock/work-1.gif) center center no-repeat;
+  background: url(../../images/%40stock/research.jpeg) center center no-repeat;
   background-size: cover; }
 
 .post-image-4 {
-  background: url(../../images/%40stock/work-4.jpg) center center no-repeat;
+  background: url(../../images/%40stock/train.jpeg) center center no-repeat;
   background-size: cover; }
 
 .post-image-5 {
-  background: url(../../images/%40stock/work-1.jpg) center center no-repeat;
+  background: url(../../images/%40stock/board.jpeg) center center no-repeat;
   background-size: cover; }
 
 .post-image-6 {
@@ -1283,7 +1283,7 @@ ul.socials li a:hover {
 
 .post:hover, .post.featured {
   color: #fff;
-  background: #ff5242; }
+  background: #2275b8; }
 
 .post:hover .info-author, .post.featured .info-author {
   color: #fff; }
@@ -1307,7 +1307,7 @@ ul.socials li a:hover {
 
 body.single .post {
   color: #fff;
-  background: #ff5242;
+  background: #2275b8;
   min-height: 500px;
   padding-top: 150px; }
 
@@ -1409,7 +1409,7 @@ nav.wrapper a.next i {
   color: #000; }
 
 nav.wrapper a:hover i, nav.wrapper a:hover span {
-  color: #ff5242; }
+  color: #2275b8; }
 
 .posts.archive .post {
   padding: 40px 40px 20px; }
@@ -1421,14 +1421,14 @@ nav.wrapper a:hover i, nav.wrapper a:hover span {
   background: none; }
 
 .posts.archive .post:hover {
-  color: #ff5242;
+  color: #2275b8;
   background: none; }
 
 .posts.archive .post:hover .info-author {
-  color: #ff5242; }
+  color: #2275b8; }
 
 .posts.archive .post:hover a {
-  color: #ff5242; }
+  color: #2275b8; }
 
 .posts.tag-archive .post {
   padding: 40px 40px 20px; }
@@ -1440,14 +1440,14 @@ nav.wrapper a:hover i, nav.wrapper a:hover span {
   background: none; }
 
 .posts.tag-archive .post:hover {
-  color: #ff5242;
+  color: #2275b8;
   background: none; }
 
 .posts.tag-archive .post:hover .info-author {
-  color: #ff5242; }
+  color: #2275b8; }
 
 .posts.tag-archive .post:hover a {
-  color: #ff5242; }
+  color: #2275b8; }
 
 .posts.category-archive .post {
   padding: 40px 40px 20px; }
@@ -1459,14 +1459,14 @@ nav.wrapper a:hover i, nav.wrapper a:hover span {
   background: none; }
 
 .posts.category-archive .post:hover {
-  color: #ff5242;
+  color: #2275b8;
   background: none; }
 
 .posts.category-archive .post:hover .info-author {
-  color: #ff5242; }
+  color: #2275b8; }
 
 .posts.category-archive .post:hover a {
-  color: #ff5242; }
+  color: #2275b8; }
 
 /* form */
 input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], textarea {
@@ -1497,7 +1497,7 @@ p#thanks {
   padding-bottom: 10px; }
 
 label.error {
-  color: #ff5242;
+  color: #2275b8;
   padding-bottom: 10px;
   position: relative;
   top: -20px; }
@@ -1596,7 +1596,7 @@ p#thanks {
   width: 10px;
   height: 1px;
   display: block;
-  background: #ff5242;
+  background: #2275b8;
   position: absolute;
   left: -20px;
   top: 8px; }
