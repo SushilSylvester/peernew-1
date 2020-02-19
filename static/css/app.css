@@ -15,6 +15,8 @@
 
 --------------*/
 /* base */
+
+
 a {
   color: #ff5242; }
 
@@ -168,8 +170,8 @@ hr {
 .logo a {
   color: #2775b8;
   font-size: 24px;
-  font-family: montserrat;
-  font-weight: bold; }
+  font-family: Cambria Math;
+   }
 
 /* home and nav */
 .box {
