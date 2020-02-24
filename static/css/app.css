@@ -1301,8 +1301,8 @@ ul.socials li a:hover {
 
 .post:hover .post-image, .post.featured .post-image {
   opacity: 0.9;
-  filter: grayscale(1);
-  mix-blend-mode: multiply;
+  /* filter: grayscale(1);
+  mix-blend-mode: multiply; */
   transform: scale(1); }
 
 body.single .post {
@@ -1313,8 +1313,8 @@ body.single .post {
 
 body.single .post .post-image {
   opacity: 0.9;
-  filter: grayscale(1);
-  mix-blend-mode: multiply;
+  /* filter: grayscale(1);
+  mix-blend-mode: multiply; */
   transform: scale(1); }
 
 body.single .post a, body.single .post .info-author {
