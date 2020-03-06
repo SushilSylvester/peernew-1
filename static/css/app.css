@@ -124,7 +124,7 @@ hr {
   height: 100%; }
 
 .full.black {
-  background: #000; }
+  background: #0277b8; }
 
 .full.no-bottom {
   padding-bottom: 0; }
@@ -649,7 +649,7 @@ html.no-touchevents .nav-video {
 .client {
  /*border: 2px solid #2275b8; */
   text-align: center;
-  padding: 10px 0;
+  padding: 10px 0px ;
   width: auto;
   height: auto;
   position: relative;
@@ -677,7 +677,7 @@ margin: 0px;
 
 .client img {
   position: relative;
-  transform: scale(.5);
+  transform: scale(.4);
   transition: transform 0.4s cubic-bezier(0.645, 0.045, 0.355, 1); }
 
 .client:hover img {
@@ -806,38 +806,38 @@ margin: 0px;
   width: 100px;
   height: 100px;
   background-color: #ffffff;
-  background-image: url(../../images/%40stock/wave.png); }
+  background-image: url(../../images/%40stock/search.svg); }
 
 
 .icon-2 {
   width: 100px;
   height: 100px;
   background-color: #ffffff;
-  background-image: url(../../images/%40stock/plus.png);
-  background-repeat: repeat; }
+  background-image: url(../../images/%40stock/consulting.svg);
+  }
 
 .icon-3 {
   width: 100px;
   height: 100px;
   background-color: #ffffff;
-  background-image: url(../../images/%40stock/minus.png);
+  background-image: url(../../images/%40stock/contigent.svg);
   background-repeat: repeat; }
 
   .icon-4 {
   width: 100px;
   height: 100px;
   background-color: #ffffff;
-  background-image: url(../../images/%40stock/circle.png); }
+  background-image: url(../../images/%40stock/training.svg); }
 
   .icon-5 {
   width: 100px;
   height: 100px;
   background-color: #ffffff;
-  background-image: url(../../images/%40stock/tringle.png); }
+  background-image: url(../../images/%40stock/result.svg); }
 
 .icon-text h3 {
   margin-top: -50px;
-  margin-left: 80px; }
+  margin-left: 100px; }
 
 .icon-text ul {
   margin-left: 60px;
@@ -1253,6 +1253,7 @@ ul.socials li a:hover {
   opacity: 0;
   transform: scale(1.1);
   transition: all 0.5s ease; }
+
 
 .post-image-1 {
   background: url(../../images/%40stock/executive.jpeg) center center no-repeat;
