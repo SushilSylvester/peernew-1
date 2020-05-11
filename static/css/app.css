@@ -1313,6 +1313,10 @@ ul.socials li a:hover {
   background: url(../../images/%40stock/research.jpeg) center center no-repeat;
   background-size: cover; }
 
+ .post-image-3-1 {
+  background: url(../../images/%40stock/medical.jpeg) center center no-repeat;
+  background-size: cover; } 
+
 .post-image-4 {
   background: url(../../images/%40stock/train.jpeg) center center no-repeat;
   background-size: cover; }
