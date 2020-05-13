@@ -87,12 +87,14 @@ hr {
   border-bottom: 1px solid #00e1b6; }
 
 .button {
+
   text-transform: uppercase;
   position: relative;
+
   z-index: 1;
   font-family: montserrat, sans-serif;
   letter-spacing: 1px;
-  line-height: 1.4rem;
+  line-height: 2rem;
   padding: 10px 30px; }
 
 .button.boxed.white {
@@ -112,9 +114,10 @@ hr {
   color: #fff;
   background: #333; }
 
+
 .full {
   clear: both;
-  padding: 50px 10%;
+  padding: 30px 10%;
   background-size: cover;
   background-position: 50% 50%;
   position: relative;
@@ -149,7 +152,7 @@ hr {
   background: #f2be8c; }
 
 .full.footer-bg {
-  background-color: #ffffff;
+  background-color: rgb(42,169,226,0.2);
   background-image: url(../../images/%40stock/footer-bg.png);
   background-position: center center;
   background-repeat: no-repeat; }
@@ -514,6 +517,11 @@ html.no-touchevents .nav-video {
 .colored-title {
   color: #2275b8; }
 
+.colored-title-footer {
+  color: #2275b8;
+  font-size: 23px; }
+
+
 .big-text {
   font-size: 24px;
   line-height: 1.9em; }
@@ -713,7 +721,7 @@ margin: 0px;
 
 .clients-with-bg img {
   background: #ccc;
-  padding: 10px 0;
+  padding: 0px 0;
   -webkit-transition: all, 0.3s, ease-in-out;
   -moz-transition: all, 0.3s, ease-in-out;
   transition: all, 0.3s, ease-in-out; }
@@ -921,6 +929,19 @@ margin: 0px;
   -o-animation: BackgroundAnimated-r-l 2s linear infinite;
   animation: BackgroundAnimated-r-l 2s linear infinite; }
 
+.icon-text:hover .icon-4 {
+  -webkit-animation: BackgroundAnimated-r-l 2s linear infinite;
+  -moz-animation: BackgroundAnimated-r-l 2s linear infinite;
+  -ms-animation: BackgroundAnimated-r-l 2s linear infinite;
+  -o-animation: BackgroundAnimated-r-l 2s linear infinite;
+  animation: BackgroundAnimated-r-l 2s linear infinite; }
+
+  .icon-text:hover .icon-5 {
+  -webkit-animation: BackgroundAnimated-r-l 2s linear infinite;
+  -moz-animation: BackgroundAnimated-r-l 2s linear infinite;
+  -ms-animation: BackgroundAnimated-r-l 2s linear infinite;
+  -o-animation: BackgroundAnimated-r-l 2s linear infinite;
+  animation: BackgroundAnimated-r-l 2s linear infinite; }
 /* members */
 .members .columns {
   padding: 0; }
@@ -982,11 +1003,11 @@ ul.socials li a:hover {
 /* contact */
 .contact-email em {
   display: block;
-  font-size: 18px;
+  font-size: 15px;
   color: #666; }
 
 .contact-email a {
-  font-size: 18px;
+  font-size: 15px;
   font-family: montserrat;
   font-weight: bold;
   color: #000;
@@ -1029,11 +1050,13 @@ ul.socials li a:hover {
   color: #000;
   font-family: montserrat, sans-serif;
   font-size: 11px;
+  vertical-align: center;
   padding: 5px 10px 9px 5px; }
 
 .contact-details a.google-map-button i {
   color: #000;
   font-size: 20px;
+  vertical-align: center;
   position: relative;
   top: 5px;
   font-weight: bold; }
