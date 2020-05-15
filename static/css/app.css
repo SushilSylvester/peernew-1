@@ -152,8 +152,8 @@ hr {
   background: #f2be8c; }
 
 .full.footer-bg {
-  background-color: rgb(42,169,226,0.2);
-  background-image: url(../../images/%40stock/footer-bg.png);
+  background-color: rgb(39,117,184);
+  /*background-image: url(../../images/%40stock/footer-bg.png);*/
   background-position: center center;
   background-repeat: no-repeat; }
 
@@ -518,7 +518,7 @@ html.no-touchevents .nav-video {
   color: #2275b8; }
 
 .colored-title-footer {
-  color: #2275b8;
+  color: #FFFFFF;
   font-size: 23px; }
 
 
@@ -1001,6 +1001,22 @@ ul.socials li a {
 ul.socials li a:hover {
   color: #fff; }
 
+ul.socials_footer {
+  list-style: none;
+   }
+
+ul.socials_footer li {
+  display: inline-block; }
+
+ul.socials_footer li a {
+  color: #000000;
+  display: inline-block;
+  padding: 5px;
+   }
+
+ul.socials_footer li a:hover {
+  color: #fff; }
+
 /* contact */
 .contact-email em {
   display: block;
@@ -1016,7 +1032,7 @@ ul.socials li a:hover {
   padding: 5px 0; }
 
 .contact-email a:hover {
-  color: #2275b8; }
+  color: #FFFFFF; }
 
 .contact-details i {
   font-size: 36px;
