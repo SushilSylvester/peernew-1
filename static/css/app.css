@@ -518,7 +518,7 @@ html.no-touchevents .nav-video {
   color: #2275b8; }
 
 .colored-title-footer {
-  font-family: "Helvetic New";
+  font-family: "Roboto";
   color: #FFFFFF;
   font-size: 23px; }
 
@@ -1027,7 +1027,7 @@ ul.socials_footer li a:hover {
 
 .contact-email a {
   font-size: 15px;
-  font-family: Helvetic New;
+  font-family: 'Roboto';
   font-weight: bold;
   color: #000;
   display: block;
