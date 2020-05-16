@@ -123,6 +123,14 @@ hr {
   position: relative;
   overflow: auto; }
 
+.full_test{
+  clear: both;
+  padding: 5px 10%;
+  background-size: cover;
+  background-position: 50% 50%;
+  position: relative;
+  overflow: auto; 
+}
 .full-screen {
   height: 100%; }
 
@@ -951,17 +959,16 @@ margin: 0px;
   }
 
   .carousel{
-    /*background:red;*/
+   background: rgba(42,169,226, 0.2);
   }
 
   .carousel-cell{
-    width: 66%;
-  height: 300px;
+   width: 66%;
+  height: 320px;
   margin-right: 10px;
-  /*background: #8C8;*/
   border-radius: 5px;
  /* counter-increment: gallery-cell;*/
-
+ 
   }
 
   .carousel-cell:before{
@@ -973,20 +980,7 @@ margin: 0px;
   color: white;
   }
 
-  /* no circle */
-.flickity-button {
-  background: transparent;
-}
-/* big previous & next buttons */
-.flickity-prev-next-button {
-  width: 100px;
-  height: 100px;
-}
-/* icon color */
-.flickity-button-icon {
-  fill: black;
-}
-
+  
 /* members */
 .members .columns {
   padding: 0; }
