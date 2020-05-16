@@ -972,6 +972,21 @@ margin: 0px;
   font-size: 80px;
   color: white;
   }
+
+  /* no circle */
+.flickity-button {
+  background: transparent;
+}
+/* big previous & next buttons */
+.flickity-prev-next-button {
+  width: 100px;
+  height: 100px;
+}
+/* icon color */
+.flickity-button-icon {
+  fill: black;
+}
+
 /* members */
 .members .columns {
   padding: 0; }
