@@ -44,7 +44,7 @@ a.load-more:hover {
   transform: translateX(-50%) scale(1); }
 
 .spacing {
-  height: 20px;
+  height: 50px;
   clear: both; }
 
 .two.spacing {
@@ -125,11 +125,6 @@ hr {
 
 .full_test{
   clear: both;
-  padding: 5px 10%;
-  background-size: cover;
-  background-position: 50% 50%;
-  position: relative;
-  overflow: auto; 
 }
 .full-screen {
   height: 100%; }
@@ -959,28 +954,45 @@ margin: 0px;
   }
 
   .carousel{
-   background: rgba(42,169,226, 0.2);
+
+   height: 280px;
+   justify-content: center;
   }
 
   .carousel-cell{
    width: 66%;
-  height: 300px;
+  height: 280px;
   margin-right: 10px;
   border-radius: 5px;
+  background: rgba(42,169,226, 0.2);
+  align-content: center;
  /* counter-increment: gallery-cell;*/
- 
   }
 
-.carousel-cell p{
-font-size: 1vw !important;
-
+.carousel-cell h2{
+ padding: 10px; 
 }
+
+.carousel-cell p{
+ padding: 10px; 
+font-size: 1vw !important;
+}
+
+.carousel-cell h2 a{
+ color: #2275b8;
+}
+
+.carousel-cell h2 a:hover{
+ color: #2275b8;
+}
+
 
   .carousel-cell:before{
   display: block;
   text-align: center;
+  align-content: center;
   /*content: counter(gallery-cell);*/
-  line-height: 300px;
+  line-height: 280px;
   
   color: white;
   }
