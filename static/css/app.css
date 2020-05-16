@@ -944,6 +944,34 @@ margin: 0px;
   -ms-animation: BackgroundAnimated-r-l 2s linear infinite;
   -o-animation: BackgroundAnimated-r-l 2s linear infinite;
   animation: BackgroundAnimated-r-l 2s linear infinite; }
+
+  /*carousel*/
+  .gallery{
+    box-sizing: border-box;
+  }
+
+  .carousel{
+    /*background:red;*/
+  }
+
+  .carousel-cell{
+    width: 66%;
+  height: 300px;
+  margin-right: 10px;
+  /*background: #8C8;*/
+  border-radius: 5px;
+ /* counter-increment: gallery-cell;*/
+
+  }
+
+  .carousel-cell:before{
+  display: block;
+  text-align: center;
+  /*content: counter(gallery-cell);*/
+  line-height: 300px;
+  font-size: 80px;
+  color: white;
+  }
 /* members */
 .members .columns {
   padding: 0; }
