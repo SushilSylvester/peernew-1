@@ -606,6 +606,7 @@
 .fa-twitter:before {
   content: "\f099"; }
 
+
 .fa-facebook:before {
   content: "\f09a"; }
 
@@ -1194,6 +1195,11 @@
 
 .fa-instagram:before {
   content: "\f16d"; }
+  
+  .fa-instagram:before .leg{
+  color: #ffffff;
+}
+
 
 .fa-flickr:before {
   content: "\f16e"; }

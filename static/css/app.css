@@ -1002,6 +1002,10 @@ ul.socials li a {
 ul.socials li a:hover {
   color: #fff; }
 
+ .socials_footer{
+  color: white;
+ } 
+
 ul.socials_footer {
   list-style: none;
   margin-left: 0px !important;
@@ -1011,13 +1015,14 @@ ul.socials_footer li {
   display: inline-block; }
 
 ul.socials_footer li a {
-  color: #000000;
+  color: white;
   display: inline-block;
   padding: 5px;
    }
 
 ul.socials_footer li a:hover {
   color: #fff; }
+
 
 /* contact */
 .contact-email em {
@@ -1029,12 +1034,12 @@ ul.socials_footer li a:hover {
   font-size: 15px;
   font-family: 'Roboto';
   font-weight: bold;
-  color: #000;
+  color: #FFFFFF;
   display: block;
   padding: 5px 0; }
 
 .contact-email a:hover {
-  color: #FFFFFF; }
+  color: #000000; }
 
 .contact-details i {
   font-size: 36px;
