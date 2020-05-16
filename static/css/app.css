@@ -964,23 +964,30 @@ margin: 0px;
 
   .carousel-cell{
    width: 66%;
-  height: 320px;
+  height: 300px;
   margin-right: 10px;
   border-radius: 5px;
  /* counter-increment: gallery-cell;*/
  
   }
 
+.carousel-cell p{
+font-size: 1vw !important;
+
+}
+
   .carousel-cell:before{
   display: block;
   text-align: center;
   /*content: counter(gallery-cell);*/
   line-height: 300px;
-  font-size: 80px;
+  
   color: white;
   }
 
-  
+
+
+
 /* members */
 .members .columns {
   padding: 0; }
