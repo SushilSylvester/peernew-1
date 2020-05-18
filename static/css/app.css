@@ -527,6 +527,12 @@ html.no-touchevents .nav-video {
 .colored-title {
   color: #2275b8; }
 
+ h2.colored-title {
+  margin-bottom: 0px !important;
+ } 
+
+
+
 .colored-title-footer {
   font-family: 'Roboto';
   color: #FFFFFF;
@@ -668,7 +674,6 @@ html.no-touchevents .nav-video {
 .client {
  /*border: 2px solid #2275b8; */
   text-align: center;
-  padding: 10px 0px ;
   width: auto;
   height: auto;
   position: relative;
@@ -920,11 +925,11 @@ padding-left: 200px;
   background-image: url(../../images/%40stock/result.svg); }
 
 .icon-text h3 {
-  vertical-align: top;
-    display: inline-block;
-    text-align: center;
+  
+    text-align: left;
     width: 120px;
     padding: 8px;
+    margin-bottom: 0px !important;
     }
 .icon-spacing{
 margin-left: 150px;
@@ -975,18 +980,18 @@ margin-left: 150px;
   .carousel{
 
    height: 280px;
-   justify-content: center;
   }
 
   .carousel-cell{
-
    width: 100%;
-  height: 280px;
+ 
   margin-right: 10px;
   border-radius: 5px;
   align-content: center;
   }
-
+.carousel-cell span{
+  color:rgb(2, 119, 184);
+}
 
 
 .carousel-cell h2{
@@ -994,11 +999,11 @@ margin-left: 150px;
 }
 
 .carousel-cell p{
-  background-color: rgba(2, 119, 184, 0.3);
+ background-color: rgba(2, 119, 184, 0.3);
   color: white;
   margin:10px;
  padding: 10px; 
-font-size: 1vw !important;
+font-size: 1.8vw !important;
 }
 
 .carousel-cell h2 a{
