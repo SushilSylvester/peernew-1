@@ -46,7 +46,10 @@ a.load-more:hover {
 .spacing {
   height: 50px;
   clear: both; }
-
+.one.spacing{
+  height: 5px;
+  clear: both;
+}
 .two.spacing {
   height: 40px;
   clear: both; }
@@ -980,7 +983,7 @@ margin-left: 150px;
 
   .carousel{
 
-   height: 280px;
+   height: 300px;
   }
 
   .carousel-cell{
@@ -991,8 +994,10 @@ margin-left: 150px;
   align-content: center;
   }
 .carousel-cell span{
+  font-size: 1.8vw !important;
   color:rgb(2, 119, 184);
   float:right;
+  margin-right: 20px;
 }
 
 
