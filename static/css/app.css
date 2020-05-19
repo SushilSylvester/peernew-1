@@ -128,7 +128,7 @@ hr {
 
 .full_test{
   clear: both;
-  background-color: rgba(2, 119, 184, 0.3); 
+  
 }
 .full-screen {
   height: 100%; }
@@ -532,7 +532,7 @@ html.no-touchevents .nav-video {
   color: #2275b8; }
 
  h2.colored-title {
-  margin-bottom: 0px !important;
+  margin-bottom: 20px !important;
  } 
 
 
@@ -982,13 +982,12 @@ margin-left: 150px;
   }
 
   .carousel{
-
+   background-color: rgba(2, 119, 184, 0.3) !important; 
    height: 300px;
   }
 
   .carousel-cell{
    width: 100%;
- 
   margin-right: 10px;
   border-radius: 5px;
   align-content: center;
@@ -1006,32 +1005,18 @@ margin-left: 150px;
 }
 
 .carousel-cell p{
- ;
+ font-style:  italic;
   color: black;
   margin:10px;
  padding: 10px; 
 font-size: 1.8vw !important;
 }
 
-.carousel-cell h2 a{
- color: #2275b8;
+.carousel-cell  {
+
 }
 
-.carousel-cell h2 a:hover{
- color: #2275b8 ;
-}
-
-
-  .carousel-cell:before{
-  display: block;
-  text-align: center;
-  align-content: center;
-  /*content: counter(gallery-cell);*/
-  line-height: 280px;
   
- background-image: url(images/%40stock/aviation.jpeg) ;
-  color: white;
-  }
 
 
 
