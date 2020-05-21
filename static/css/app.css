@@ -545,7 +545,9 @@ html.no-touchevents .nav-video {
 
 .big-text {
   font-size: 24px;
-  line-height: 1.9em; }
+  line-height: 1.9em; 
+margin-bottom: 0px !important}
+
 
 @keyframes BackgroundAnimated-l-r {
   from {
@@ -993,11 +995,12 @@ margin-left: 150px;
   }
 
   .carousel{
-   background-color: rgba(2, 119, 184, 0.3) !important; 
+    
    height: 440px;
   }
 
   .carousel-cell{
+    background-color: rgba(2, 119, 184, 0.3) !important;
    width: 100%;
   margin-right: 10px;
   border-radius: 5px;
