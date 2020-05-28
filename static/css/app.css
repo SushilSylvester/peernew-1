@@ -529,10 +529,11 @@ html.no-touchevents .nav-video {
   filter: none; }
 
 .colored-title {
-  color: #2275b8; }
+  color: #2275b8;
+  font-size: 30px !important; }
 
  h2.colored-title {
- /* margin-bottom: 10px !important;*/
+/*margin-bottom: 10px !important;*/
  } 
 
 
@@ -544,7 +545,7 @@ html.no-touchevents .nav-video {
 
 
 .big-text {
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.9em; 
 margin-bottom: 0px !important}
 
@@ -691,7 +692,7 @@ margin-bottom: 0px !important}
 .client {
  /*border: 2px solid #2275b8; */
   text-align: center;
-  width: auto;
+  width: 170px`;
   height: auto;
   position: relative;
   overflow: hidden; }
@@ -699,6 +700,10 @@ margin-bottom: 0px !important}
  .client {
 margin: 0px;
  } 
+
+ .client h4{
+  font-size: 18px !important;
+ }
 /* just trying something new*/
  .client1 {
  border: 2px solid #2275b8; 
@@ -903,9 +908,24 @@ padding-left: 200px;
   transform: translateY(-50px); }
 
 /* icon -text */
+.icon-container{
+margin-left: 10%;
+
+}
+
+.row{
+  width: auto;
+}
+
+.icon-test{
+  margin: 10px;
+}
+.icon-text h3{
+  font-size: 18px !important;
+}
 .icon-1 {
   padding: 10px;
-  width: 100px;
+  width: 80px;
   height: 100px;
   background-color: #ffffff;
   background-image: url(../../images/%40stock/search.svg); }
@@ -913,7 +933,7 @@ padding-left: 200px;
 
 .icon-2 {
   padding: 10px;
-  width: 100px;
+  width: 80px;
   height: 100px;
   background-color: #ffffff;
   background-image: url(../../images/%40stock/consulting.svg);
@@ -921,7 +941,7 @@ padding-left: 200px;
 
 .icon-3 {
   padding: 10px;
-  width: 100px;
+  width: 80px;
   height: 100px;
   background-color: #ffffff;
   background-image: url(../../images/%40stock/contigent.svg);
@@ -929,14 +949,14 @@ padding-left: 200px;
 
   .icon-4 {
     padding: 10px;
-  width: 100px;
+  width: 80px;
   height: 100px;
   background-color: #ffffff;
   background-image: url(../../images/%40stock/training.svg); }
 
   .icon-5 {
     padding: 10px;
-  width: 100px;
+  width: 80px;
   height: 100px;
   background-color: #ffffff;
   background-image: url(../../images/%40stock/result.svg); }
@@ -1135,6 +1155,9 @@ ul.socials_footer li a:hover {
 
 
 /* contact */
+.contact-email .footer-button .button {
+  font-weight: bold !important;
+}
 .contact-email em {
   display: block;
   font-size: 15px;
@@ -1181,6 +1204,7 @@ ul.socials_footer li a:hover {
   color: #2275b8; }
 
 .contact-details a.google-map-button {
+
   color: #000;
   font-family: montserrat, sans-serif;
   font-size: 11px;
@@ -1197,6 +1221,28 @@ ul.socials_footer li a:hover {
 
 .contact-details a.google-map-button:hover i {
   color: #fff; }
+
+.footer-button a.footer-button1{
+  background-color: #000 !important;
+  color: #fff !important;
+  font-family: montserrat, sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  vertical-align: center;
+  padding: 5px 10px 9px 5px;
+}
+
+.footer-button a.footer-button1 i{
+  color: #fff;
+  font-size: 31px;
+  vertical-align: center;
+  position: relative;
+  top: 5px;
+  font-weight: bold;
+  }
+  .footer-button a.footer-button1:hover i{
+    color: #2aa9e2 } 
+
 
 .contact-details {
   min-height: 300px; }
@@ -1457,7 +1503,10 @@ ul.socials_footer li a:hover {
   transform: scale(1.1);
   transition: all 0.5s ease; }
 
-
+.joinus-image{
+   background: url(../../images/%40stock/joinus.jpg) center center no-repeat;
+  background-size: cover;
+}
 .post-image-1 {
   background: url(../../images/%40stock/executive.jpeg) center center no-repeat;
   background-size: cover; }
