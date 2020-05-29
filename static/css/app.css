@@ -974,7 +974,7 @@ margin-left: 150px;
 }
 
 
-.icon-text:hover .icon-2 {
+/*.icon-text:hover .icon-2 {
   -webkit-animation: BackgroundAnimated-l-r 2s linear infinite;
   -moz-animation: BackgroundAnimated-l-r 2s linear infinite;
   -ms-animation: BackgroundAnimated-l-r 2s linear infinite;
