@@ -127,8 +127,7 @@ hr {
   overflow: auto; }
 
 .full_test{
-  clear: both;
-  
+  clear: both; 
 }
 .full-screen {
   height: 100%; }
@@ -1015,8 +1014,7 @@ margin-left: 150px;
   }
 
   .carousel{
-    
-   height: 440px;
+   height:auto;
   }
 
   .carousel-cell{
@@ -1028,7 +1026,7 @@ margin-left: 150px;
   }
 .carousel-cell  span{
   font-weight: bold ;
-  font-size: 1.8vw !important;
+  font-size: 1.2vw !important;
   color:rgb(2, 119, 184);
   float:right;
   margin-right: 20px;
@@ -1054,7 +1052,7 @@ margin-left: 150px;
   color: black;
   margin:10px;
  padding: 10px; 
-font-size: 2vw !important;
+font-size: 1.2vw !important;
 }
 
 .carousel-cell  {
@@ -1222,26 +1220,32 @@ ul.socials_footer li a:hover {
 .contact-details a.google-map-button:hover i {
   color: #fff; }
 
-.footer-button a.footer-button1{
-  background-color: #000 !important;
-  color: #fff !important;
-  font-family: montserrat, sans-serif;
-  font-size: 22px;
-  font-weight: bold;
-  vertical-align: center;
-  padding: 5px 10px 9px 5px;
+.footer-button1 {
+  background-color: #000; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 30px 5px 30px;
+  text-align: center;
+  font-family: montserrat;
+  font-style: bold;
+  display: inline-block;
+  font-size: 25px;
+  margin: 2px 1px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+
 }
 
-.footer-button a.footer-button1 i{
-  color: #fff;
-  font-size: 31px;
-  vertical-align: center;
-  position: relative;
-  top: 5px;
-  font-weight: bold;
-  }
-  .footer-button a.footer-button1:hover i{
-    color: #2aa9e2 } 
+.joinus-button {
+  background-color: rgba(255,255,255,0.9);
+  color: black; 
+  
+}
+
+.joinus-button:hover {
+  background-color: #000;
+  color:#0177b8;
+}
 
 
 .contact-details {
