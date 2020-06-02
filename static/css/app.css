@@ -127,7 +127,12 @@ hr {
   overflow: auto; }
 
 .full_test{
-  clear: both; 
+  clear: both;
+  padding: 20px 10%;
+  background-size: cover;
+  background-position: 50% 50%;
+  position: relative;
+  
 }
 .full-screen {
   height: 100%; }
@@ -1033,8 +1038,8 @@ margin-left: 150px;
 }
 
 .carousel-cell img{
-  height: 100px; 
-  width: 100px;
+  height: 50px; 
+  width: 50px;
   margin-top: 10px;
   display: block;
   margin-left: auto;
