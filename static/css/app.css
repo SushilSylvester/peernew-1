@@ -1057,16 +1057,8 @@ margin-left: 150px;
   color: black;
   margin:10px;
  padding: 10px; 
-font-size: 1.2vw !important;
+font-size: 1.4vw !important;
 }
-
-.carousel-cell  {
-
-}
-
-  
-
-
 
 
 /* members */
@@ -1086,7 +1078,7 @@ font-size: 1.2vw !important;
   transition: background 0.1s ease-in; }
 
 .slidebox img{
-height: 500px;
+height: 700px;
 border-top:2px solid #2aa9e2;
 border-right: 1px solid #2aa9e2;
 border-bottom: 2px solid #2aa9e2;
