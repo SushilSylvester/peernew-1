@@ -42,16 +42,13 @@
         }
         .hidden{
             display: none;
-            visibility: hidden;
         }
 
 
 
     </style>
     <script>
-        $(document).ready(function() {
-            $("#form-2").removeClass("hidden");
-        });
+       
         function candidate(){
             document.getElementById("form-1").style.display ="inline";
             document.getElementById("form-2").style.display ="none";
@@ -61,6 +58,8 @@
             document.getElementById("form-2").style.display ="inline";
 
         }
+
+ 
 
 
     </script>
@@ -832,7 +831,7 @@
                                 <input class='button white boxed contact-button' type='submit' value="Send it">
                             </div>
                         </form>
-                        <form id='form-2' class="hidden" method='POST' data-toggle="validator">
+                        <form id='form-2' class="hidden" method='POST' data-toggle="validator" >
                             <div class="large-4 columns">
                                 <input class='required' name='name' placeholder='COMPANY NAME' type='text'>
                             </div>
