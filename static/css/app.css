@@ -534,7 +534,8 @@ html.no-touchevents .nav-video {
 
 .colored-title {
   color: #2275b8;
-  font-size: 30px !important; }
+  font-size: 30px !important;
+  text-align: left; }
 
  h2.colored-title {
 /*margin-bottom: 10px !important;*/
@@ -551,7 +552,8 @@ html.no-touchevents .nav-video {
 .big-text {
   font-size: 20px;
   line-height: 1.9em; 
-margin-bottom: 0px !important}
+margin-bottom: 0px !important;
+text-align:left;}
 
 
 @keyframes BackgroundAnimated-l-r {
@@ -974,7 +976,7 @@ margin-left: 10%;
   
     text-align: left;
     width: 120px;
-    padding: 8px;
+    padding-top: 8px;
     margin-bottom: 0px !important;
     }
 .icon-spacing{
@@ -1063,6 +1065,7 @@ margin-left: 150px;
   margin:10px;
  padding: 10px; 
 font-size: 1.4vw !important;
+text-align: left;
 }
 
 
@@ -1161,7 +1164,8 @@ ul.socials_footer li a:hover {
 .contact-email em {
   display: block;
   font-size: 15px;
-  color: #666; }
+  color: #666;
+  text-align: left; }
 
 .contact-email a {
   font-size: 15px;
@@ -1592,10 +1596,12 @@ body.single .post h2 {
   font-size: 36px; }
 
 .post-content p:first-of-type {
-  font-size: 24px; }
+  font-size: 24px;
+  text-align: left; }
 
 body.single .post-content p, body.single .post-content blockquote, body.single .post-content h2, body.single .post-content h3, body.single .post-content h4, body.single .post-content h5, body.single .post-content ul, body.single .post-content ol {
-  margin-bottom: 36px; }
+  margin-bottom: 36px;
+  text-align: left; }
 
 .tags a {
   padding-right: 3px; }
@@ -1978,7 +1984,7 @@ margin-bottom: 5%;
 
 .team_text p{
 color: white;
-text-align: justify;
+text-align: left;
 padding: 10px;
 margin-bottom: 0px !important;
 }
