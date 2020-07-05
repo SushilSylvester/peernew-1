@@ -15,7 +15,9 @@
 
 --------------*/
 /* base */
-
+.how-p{
+  text-align: justify !important;
+}
 
 a {
   color: #2275b8; }
@@ -535,7 +537,8 @@ html.no-touchevents .nav-video {
 .colored-title {
   color: #2275b8;
   font-size: 30px !important;
-  text-align: left; }
+  text-align: justify;
+   }
 
  h2.colored-title {
 /*margin-bottom: 10px !important;*/
@@ -1030,6 +1033,7 @@ margin-left: 150px;
   }
 
   .carousel-cell{
+    height: justify;
     background-color: rgba(2, 119, 184, 0.3) !important;
    width: 100%;
   margin-right: 10px;
@@ -1065,7 +1069,11 @@ margin-left: 150px;
   margin:10px;
  padding: 10px; 
 font-size: 1.4vw !important;
-text-align: left;
+text-align:justify;
+}
+
+.flickity-viewport {
+ height: 320px !important;
 }
 
 
@@ -1601,7 +1609,7 @@ body.single .post h2 {
 
 body.single .post-content p, body.single .post-content blockquote, body.single .post-content h2, body.single .post-content h3, body.single .post-content h4, body.single .post-content h5, body.single .post-content ul, body.single .post-content ol {
   margin-bottom: 36px;
-  text-align: left; }
+  text-align: justify; }
 
 .tags a {
   padding-right: 3px; }
