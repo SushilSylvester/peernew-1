@@ -1094,7 +1094,7 @@ text-align:justify;
   transition: background 0.1s ease-in; }
 
 .slidebox img{
-height: 700px;
+height: 550px !important;
 border-top:2px solid #2aa9e2;
 border-right: 1px solid #2aa9e2;
 border-bottom: 2px solid #2aa9e2;
