@@ -173,7 +173,7 @@
             {
               breakpoint: 2000,
               settings: {
-                slidesToShow: 4,
+                slidesToShow: 5,
                 slidesToScroll: 1
               }
             },
