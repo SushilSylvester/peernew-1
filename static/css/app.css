@@ -15,6 +15,12 @@
 
 --------------*/
 /* base */
+.contact_header{
+  background:white;
+  width: 100%;
+  height: 30px;
+}
+
 .how-p{
   text-align: justify !important;
 }
