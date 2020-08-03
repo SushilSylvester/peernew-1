@@ -23,6 +23,8 @@
 
 .how-p{
   text-align: justify !important;
+  margin-top: 20px;
+
 }
 
 a {
@@ -1990,7 +1992,7 @@ margin-bottom: 5%;
 }
 
 .team_text h2{
-  color: #2aa9e2;
+  color: #2275b8;
   margin-bottom: 10px !important;
  
 }
