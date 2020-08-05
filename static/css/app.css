@@ -1763,6 +1763,7 @@ nav.wrapper a:hover i, nav.wrapper a:hover span {
   color: #2275b8; }
 
 /* form */
+ 
 input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], textarea {
   padding: 15px;
   height: 3rem;
@@ -1770,17 +1771,17 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
 
 form input[type="text"], form input[type="password"], form input[type="date"], form input[type="datetime"], form input[type="datetime-local"], form input[type="month"], form input[type="week"], form input[type="email"], form input[type="number"], form input[type="search"], form input[type="tel"], form input[type="time"], form input[type="url"], form textarea {
   background: none;
-  border: 1px solid rgba(255, 255, 255,);
-  color: #fff; }
+  border: 1px solid #333;
+  color: #000; }
 
 input[type="text"]:focus, input[type="password"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="week"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="color"]:focus, textarea:focus {
   background: none;
-  border: 1px solid #fff; }
+  border: 3px solid #fff; }
 
 form.dark input[type="text"], form.dark input[type="password"], form.dark input[type="date"], form.dark input[type="datetime"], form.dark input[type="datetime-local"], form.dark input[type="month"], form.dark input[type="week"], form.dark input[type="email"], form.dark input[type="number"], form.dark input[type="search"], form.dark input[type="tel"], form.dark input[type="time"], form.dark input[type="url"], form.dark textarea {
   background: none;
   border: 1px solid #ccc;
-  color: #333; }
+  color: #000; }
 
 form.dark input[type="text"]:focus, form.dark input[type="password"]:focus, form.dark input[type="date"]:focus, form.dark input[type="datetime"]:focus, form.dark input[type="datetime-local"]:focus, form.dark input[type="month"]:focus, form.dark input[type="week"]:focus, form.dark input[type="email"]:focus, form.dark input[type="number"]:focus, form.dark input[type="search"]:focus, form.dark input[type="tel"]:focus, form.dark input[type="time"]:focus, form.dark input[type="url"]:focus, form.dark input[type="color"]:focus, form.dark textarea:focus {
   background: none;
