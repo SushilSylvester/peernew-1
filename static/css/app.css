@@ -14,7 +14,13 @@
 12. Case study
 
 --------------*/
-/* base */
+
+.privacy{
+width: 100%;
+clear: both;
+text-align: center;
+
+  }/* base */
 .contact_header{
   background:white;
   width: 100%;
