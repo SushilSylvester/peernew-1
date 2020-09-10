@@ -1595,6 +1595,10 @@ ul.socials_footer li a:hover {
   background: url(../../images/%40stock/work-3.jpg) center center no-repeat;
   background-size: cover; }
 
+.post-image-9 {
+  background: url(../../images/%40stock/join.jpg) center center no-repeat;
+  background-size: cover; }  
+
 .post:hover, .post.featured {
   color: #fff;
   background: #2275b8; }
