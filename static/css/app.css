@@ -14,8 +14,6 @@
 12. Case study
 
 --------------*/
-
-
 .logo_container{
   text-align: center;
 }
@@ -392,7 +390,7 @@ body.hover-contact svg #svg-contact path, body.hover-contact svg #svg-contact po
   transform-origin: center;
   transition-property: transform;
   transition-duration: .3s;
-  cursor: url(../../images/cursor.png),auto;  }
+   }
 
 .box:hover .header span {
   bottom: 30%;
