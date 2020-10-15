@@ -1,3 +1,6 @@
+
+        
+
 (function($) {
 
   'use strict';
@@ -24,6 +27,10 @@
       }
     });
   }
+
+
+
+
 
   // https://jonsuh.com/blog/detect-the-end-of-css-animations-and-transitions-with-javascript/
   // Function from David Walsh: http://davidwalsh.name/css-animation-callback
@@ -297,6 +304,9 @@
   }
 
 
+
+
 })(jQuery);
+
 
 
